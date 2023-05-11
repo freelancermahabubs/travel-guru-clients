@@ -1,0 +1,19 @@
+img {
+  background: linear-gradient(0.12deg, #2f2e2e 10%, rgba(0, 0, 0, 0) 90%);
+  border-radius: 20px;
+}
+.my-image {
+  overflow: hidden;
+  position: relative;
+
+  border-radius: 20px;
+
+  border-radius: 20px;
+}
+.my-image::after {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0.12deg, #1c1b1b 10%, rgba(0, 0, 0, 0) 90%);
+  user-select: none;
+}
